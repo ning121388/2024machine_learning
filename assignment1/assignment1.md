@@ -155,13 +155,13 @@ torch.save(best_model_state, 'best_model.pth')
 
 ## 拟合结果
 
-### MSE结果：0.266
+### MSE结果：0.2476
 
 运行上述代码和配套的画图代码（附录可见）得到的结果如下图所示，可见在真正的未知数据上的损失值还是要大于在训练集和验证集上的损失值
 
 ![](D:\university\课程\machine_learning\2024machine_learning\assignment1\results.png)
 
-得到的最优模型的测试集MSE损失为  ***0.266***
+得到的最优模型的测试集MSE损失为  ***0.2476***
 
 ### Loss曲线
 
